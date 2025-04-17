@@ -1,0 +1,17 @@
+package solid;
+
+public class OPCExam {
+
+}
+
+interface PaymentGateway {
+	void payProcess();
+}
+
+class CreateCardPayment implements PaymentGateway {
+	
+	@Override
+	public void payProcess() {
+		
+	}
+}

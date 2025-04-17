@@ -1,0 +1,9 @@
+package solid;
+
+public class OPCExam {
+
+}
+
+interface PaymentGateway {
+	void payProcess();
+}

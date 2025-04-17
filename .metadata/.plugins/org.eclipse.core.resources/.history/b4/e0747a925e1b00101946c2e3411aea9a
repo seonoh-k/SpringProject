@@ -1,0 +1,32 @@
+package solid;
+
+public class SRPExam {
+	public static void main(String[] args) {
+		
+	// SRP의 위반 사례와 개선 방안
+		
+	}
+}
+
+// 하나의 클래스가 두개의 기능을 가지기 때문에 SRP 위반
+//class UserController {
+//	public void username() {
+//		System.out.println("유저 어쩌구 저쩌구 나가세요");
+//	}
+//
+//	public void sendMail() {
+//		System.out.println("느그느그느그느그 느금마");
+//	}
+//}
+
+class UserController {
+	public void username() {
+		System.out.println("유저 어쩌구 저쩌구 나가세요");
+	}
+}
+
+class MailController() {
+	public void sendMail() {
+		System.out.println("느그느그느그느그 느금마");
+	}
+}

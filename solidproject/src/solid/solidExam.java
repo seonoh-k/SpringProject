@@ -25,11 +25,16 @@ public class solidExam {
 //		1. SRP Single Responsibility Principle - 단일 책임 원칙
 //			- 하나의 모듈은 하나의 기능을 수행한다
 //		2. OCP Open-Closed Principle - 개방 폐쇄 원칙
-//			- 확장에는 열려있어야 하지만 변경은 막아야한다
+//			- 확장에는 열려있어야 하지만 변경은 최소한으로 진행되어야한다
 //			- 이론상의 개념
 //		3. LSP Liskov Substitution Principle - 리스코프 치환 원칙
+//			- 프로그램의 객체는 정확성을 잃지 않으면서 하위 타입의 인스턴스로 바뀔 수 있어야 한다
 //		4. ISP Interface Segregation - 인터페이스 분리 원칙
+//			- 자신이 사용하지 않는 인터페이스는 상속하지 않는다
+//			- 하나의 일반적인 인터페이스 보다 여러개의 구체적 인터페이스가 필요하다
+//			- 해당 인터페이스를 구현할 때 의미없는 메소드가 있으면 안된다
 //		5. DIP Dependency Inversion Principle - 의존 역전 원칙
+//			- 추상화를 중심으로 추상화에 의존을 하되 구체화에 의존해서는 안된다
 		
 		
 	}
